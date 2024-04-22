@@ -13,50 +13,32 @@ body {
 h1, h2  {
   font-family: "Seymour One", sans-serif;
   background-color: #C92F2F;
-
 }
 
 p {
   color: #C92F2F;
 }
 
-
 a {
-  color: black;
   display: inline-block;
   text-decoration: none;
-  text-align: center;
-}
-
-a:hover {
-  color:rgba(0, 0, 0, 0.5);
-  transition: 0.5s;
 }
 
 .container{
-width: 500px;   /* This sets the width */
+width: 550px;
 margin: 0 auto;
 text-align: center;
 }
-.card-black{
-  background-color: black;
-  margin:5px;
-}
-.card-black a{
-  color:white;
-}
-
-
-
-#card-black a:hover{
-  color: #C92F2F;
-  transition: 0.5s;
-}
 
 .card-white{
-background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
+.img-circle {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
 .btn-orange {
   background-color: #C92F2F;
   border-radius: 4px;
@@ -68,16 +50,6 @@ background-color: #FFFFFF;
 .btn-orange:hover {
   background-color: white;
   transition: background-color 0.5s;
-}
-
-
-
-
-
-.img-circle {
-  width: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px;
 }
 
 
@@ -112,6 +84,22 @@ background-color: #FFFFFF;
     display:grid;
     margin:0;
     padding: 0;
+  }
+
+
+  .card-black{
+    background-color: black;
+    margin:5px;
+  }
+  .card-black a{
+    color:white;
+  }
+
+
+
+  #card-black a:hover{
+    color: #C92F2F;
+    transition: 0.5s;
   }
 
 
